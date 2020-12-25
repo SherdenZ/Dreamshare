@@ -1,4 +1,28 @@
+body {
+    font: bold 14px Montserrat, sans-serif ;
+}
 .wrapper {
     min-width: 700px;
-    
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+
+}
+
+.header-logo {
+
+}
+
+h1 {
+    position: absolute;
+    display: none;
+}
+
+.promo {
+    background-image: url(../img/promo_background.jpeg);
+    height: 100%;
+    min-height: 700px;
+    max-width: 1440px;
 }
