@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/style/normalize.css">
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Dreamshare</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
                 <h1>Dreamshare</h1>
                 <h3>Dreamshare</h3>
             </div>
-            <div class="menu">
+            <div class="header-menu">
                 <button class="button menu__log-in">Log In</button>
                 <button class="button menu__sing-up">Sing up</button>
             </div>
@@ -24,32 +24,36 @@
         <section class="promo">
             <div class="presentation">
                 <div class="presentation-description">
-                    <h2>Share your holiday dreams</h2>
-                    <p>And find the perfect partner to fullfill it</p>
+                    <h2 class="presentation-description__heading">Share your holiday dreams</h2>
+                    <p class="presentation-description__description">And find the perfect partner to fullfill it</p>
                 </div>
                 <button class="button presentation__button">Find your holiday partner</button>
             </div>
         </section>
         <main>
             <div class="how-it-works">
-                <h3>How Dreamshare works?</h3>
+                <h3 class="how-it-works__heading">How Dreamshare works?</h3>
                 <div class="dreamshare-description">
-                    <div class="laptop">
-                        <div class="laptop__step1"><h5>Step 1</h5></div>
-                        <h4>Sed leo enim, condimentum</h4>
-                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-                        
+                    <div class="step step-first">
+                        <div class="step__wrapper">
+                            <h5 class="step__number">Step 1</h5>
+                            <h4 class="step__heading" >Sed leo enim, condimentum</h4>
+                            <p class="step__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
                     </div>
-                    <div class="car">
-                        <div class="car__step2"><h5>Step 2</h5></div>
-                        <h4>Morbi velit risus</h4>
-                        <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                    <div class="step step-second">
+                        <div class="step__wrapper">
+                            <h5 class="step__number">Step 2</h5>
+                            <h4 class="step__heading">Morbi velit risus</h4>
+                            <p class="step__description">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+                        </div>
                     </div>
-                    <div class="beach">
-                        <div class="beach__step3"><h5>Step 3</h5></div>
-                        <h4>Sed leo enim,
-                            condimentum</h4>
-                        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                    <div class="step step-third">
+                        <div class="step__wrapper">
+                            <h5 class="step__number">Step 3</h5>
+                            <h4 class="step__heading">Sed leo enim, condimentum</h4>
+                            <p class="step__description">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -58,34 +62,34 @@
                     <h4>Meet a partner for your best holiday</h4>
                 </div>
                 <div class="partners-list">
-                    <div class="partners-list__person1">
-                        <img src="#" alt="face">
+                    <div class="person">
+                        <img src="./assets/img/Partner_1.jpeg" alt="face">
                         <div class="person-description">
-                            <div class="person-description__name"><h5>Bradley Hunter</h5></div>
-                            <div class="person-description__quote">Based in Chicago. I love playing tennis and loud music.</div>
+                            <div class="person-description__name"><p>Bradley Hunter</p></div>
+                            <div class="person-description__quote"><p>Based in Chicago. I love playing tennis and loud music.</p></div>
                         </div>
                     </div>
-                    <div class="partners-list__person2">
-                        <img src="#" alt="face">
+                    <div class="person">
+                        <img src="./assets/img/Partner_2.jpeg" alt="face">
                         <div class="person-description">
-                            <div class="person-description__name"><h5>Heather Walker</h5></div>
-                            <div class="person-description__quote">I'm a happy person that loves cats and climbing on mountains.
+                            <div class="person-description__name heather"><p>Heather Walker</p></div>
+                            <div class="person-description__quote"><p>I'm a happy person that loves cats and climbing on mountains.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="partners-list__person3">
-                        <img src="#" alt="face">
+                    <div class="person">
+                        <img src="./assets/img/Partner_3.jpeg" alt="face">
                         <div class="person-description">
-                            <div class="person-description__name"><h5>Lucas Marsha</h5></div>
-                            <div class="person-description__quote">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
+                            <div class="person-description__name lucas"><p>Lucas Marsha</p></div>
+                            <div class="person-description__quote lucas-quote"><p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="partners-list__person4">
-                        <img src="#" alt="face">
+                    <div class="person">
+                        <img src="./assets/img/Partner_4.jpeg" alt="face">
                         <div class="person-description">
-                            <div class="person-description__name"><h5>Bradley Hunter</h5></div>
-                            <div class="person-description__quote">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.
+                            <div class="person-description__name bradley"><p>Bradley Hunter</p></div>
+                            <div class="person-description__quote bradley-quote"><p>Based in Chicago. I love playing tennis and loud music.</p>
                             </div>
                         </div>
                     </div>
@@ -100,32 +104,25 @@
                 </div>
                 <div class="ideas-list">
                     <div class="activity">
-                        <img src="#" alt="activity">
-                        <h5>Sport and Activity</h5>
+                        <p>Sport and Activity</p>
                     </div>
                     <div class="wellnes">
-                        <img src="#" alt="wellnes">
-                        <h5>Wellnes and Health</h5>
+                        <p>Wellnes and Health</p>
                     </div>
                     <div class="extrime">
-                        <img src="#" alt="extrime">
-                        <h5>Extreme Sports and Expeditions</h5>
+                        <p>Extreme Sports and Expeditions</p>
                     </div>
                     <div class="games">
-                        <img src="#" alt="games">
-                        <h5>Games</h5>
+                        <p>Games</p>
                     </div>
                     <div class="education">
-                        <img src="#" alt="education">
-                        <h5>Culture and Education</h5>
+                        <p>Culture and Education</p>
                     </div>
                     <div class="relaxation">
-                        <img src="#" alt="relaxation">
-                        <h5>Relaxation</h5>
+                        <p>Relaxation</p>
                     </div>
                     <div class="travelling">
-                        <img src="#" alt="travelling">
-                        <h5>Travelling</h5>
+                        <p>Travelling</p>
                     </div>
                 </div>
             </div>

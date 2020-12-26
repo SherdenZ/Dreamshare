@@ -1,18 +1,39 @@
 body {
-    font: bold 14px Montserrat, sans-serif ;
+    font: bold 10px Montserrat, sans-serif ;
 }
 .wrapper {
-    min-width: 700px;
-    margin: 0 auto;
+    width: 144em;
+    height: 3400px;
+    position: relative;
+    top: -17px;
+    overflow:hidden
 }
 
 header {
-    position: absolute;
-
+    position: relative;
+    display: inline-flex;
+    width: 89em;
+    justify-content: space-between;
+    top: 4.3em;
+    left: 24.7em;
+    z-index: 5;
+    letter-spacing: 0.07em;
+    color: #ffffff;
 }
 
 .header-logo {
+    text-transform: uppercase;
+    float: left;
+}
 
+.header-logo > h3 {
+    font-size: 2em;
+}
+
+.header-menu {
+    float: right;
+    position: relative;
+    top: 1em;
 }
 
 h1 {
@@ -21,8 +42,279 @@ h1 {
 }
 
 .promo {
-    background-image: url(../img/promo_background.jpeg);
-    height: 100%;
+    background: no-repeat url(../img/promo_background.jpeg);
+/*     height: 100%; */
     min-height: 700px;
     max-width: 1440px;
+    position: relative;
+    top: -9em;
+    color: #ffffff;
 }
+
+.presentation {
+    width: 51em;
+    text-align: center;
+    position: relative;
+    top: 21.4em;
+    left: 46.1em;
+}
+
+.presentation-description__heading {
+    font-size: 5.2em;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 0.3em;
+}
+
+.presentation-description__description {
+    font: 2.4em Roboto, sans-serif;
+    margin-top: 0.94em;
+    letter-spacing: 0.002em;
+    padding-left: 0.3em;
+}
+
+.presentation__button {
+    border: 0;
+    background-color: #FF4E50;
+    margin-top: 0.7em;
+    height: 2.9em;
+    width: 16.1em;
+    border-radius: 2em;
+    margin-right: -0.68em;
+    font: bold 1.4em Montserrat, sans-serif;
+    letter-spacing: -0.024em;
+    padding-left: 0.1em;
+    color: #ffffff;
+}
+
+main{
+    background-color: #fff;
+    position: relative;
+    top: -8em;
+}
+
+.how-it-works {
+    width: 110em;
+    height: 50em;
+    position: inherit;
+    top: 9em;
+    margin: 0 auto;
+}
+
+.how-it-works__heading {
+    text-align: center;
+    font-size: 2.13em;
+    margin-top: -0.3em;
+    letter-spacing: -0.003em;
+    margin-left: -0.1em;
+}
+
+.dreamshare-description{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 94em;
+    position: relative;
+    left: 8em;
+    top: 1.4em;
+}
+
+.step {
+    width: 30em;
+    height: 40em;
+    border-radius: 0.4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffffff;
+}
+
+.step__wrapper {
+    padding: 0 1.5em 0 2em;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.step__number {
+    background-color: #FF4E50;
+    border-radius: 1.2em;
+    width: 8.3em;
+    height: 2.4em;
+    margin-bottom: -2em;
+    margin-left: 0.1em;
+    text-align: center;
+    line-height: 2.8em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    padding-left: 0.2em;
+}
+
+.step__heading {
+    font-size: 2.4em;
+    letter-spacing: -0.03em;
+}
+
+.step__description {
+    color: #cccccc;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    margin-top: -1.35em;
+    margin-left: -0.1em;
+    margin-bottom: 1.2em;
+    line-height: 1.2em;
+}
+
+.step-first {
+    background: no-repeat url(../img/How_works_1.jpeg);
+    background-position-x: -18.8em;
+    background-position-y: -2em;
+}
+
+.step-second {
+    background: no-repeat url(../img/How_works_2.jpeg);
+    background-position-x: -16em;
+    background-position-y: -1.6em;
+}
+
+.step-second .step__wrapper {
+    padding-left: 1.8em;
+}
+
+.step-second .step__heading {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    letter-spacing: -0.01em;
+}
+
+.step-second .step__number {
+    margin-left: 0.3em;
+}
+
+.step-second .step__description {
+    margin-left: 0.1em;
+    letter-spacing: 0.014em;
+}
+
+.step-third {
+    background: no-repeat url(../img/How_works_3.jpeg);
+    background-position-x: -17.6em;
+    background-position-y: -2.3em;
+}
+
+.partners {
+    position: inherit;
+    top: 11.8em;
+    width: 92em;
+    margin: 0 auto;
+}
+
+.partners__heading {
+    text-align: center;
+    font-size: 2.14em;
+    margin-left: -3px;
+    letter-spacing: -0.003em;
+}
+
+.partners-list {
+    position: relative;
+    top: 0.2em;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 96em;
+}
+
+.person {
+    width: 22em;
+    flex-grow: 1;
+}
+
+.person img {
+    border-radius: 50%;
+    margin: 0 3.9em;
+}
+
+.person-description {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.person-description__name {
+    position: relative;
+    top: 0.1em;
+    left: -1.46em;
+    letter-spacing: -0.02em;
+    color: #333333;
+}
+
+.heather {
+    top: 0px;
+    left: -1.45em;
+}
+
+.lucas {
+    top: -0.02em;
+}
+
+.bradley {
+    top: -0.2em;
+}
+
+.person-description__quote {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: #666666;
+    width: 16em;
+    margin-left: -0.9em;
+    letter-spacing: 0.01em;
+}
+
+.lucas-quote {
+    position: relative;
+    left: 0.18em;
+    top: -0.1em;
+    width: 15.7em;
+}
+
+.bradley-quote > p {
+    margin-top: -0.2em;
+}
+
+.other-partners {
+    position: relative;
+    left: 4px;
+    width: 20em;
+    margin: 2.1em auto 0;
+}
+
+.other-partners button{
+    width: 13.7em;
+    background: inherit;
+    border-radius: 10em;
+    line-height: 2.498em;
+    border-color: #FF4E50;
+    color: #FF4E50;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: -0.01em;
+}
+
+.ideas{
+    padding-top: 19.38em;
+}
+
+.ideas-heading {
+    width: 19em;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.8em;
+    letter-spacing: 0.0078em;
+}
+
+.ideas-heading__heading {
+    
+}
+.ideas-list {
+
+}
+
