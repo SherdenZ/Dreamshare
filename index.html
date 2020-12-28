@@ -17,8 +17,8 @@
                 <h3>Dreamshare</h3>
             </div>
             <div class="header-menu">
-                <button class="button menu__log-in">Log In</button>
-                <button class="button menu__sing-up">Sing up</button>
+                <button class="button header-menu__log-in">Log in</button>
+                <button class="button header-menu__sing-up">Sign up</button>
             </div>
         </header>
         <section class="promo">
@@ -63,14 +63,20 @@
                 </div>
                 <div class="partners-list">
                     <div class="person">
-                        <img src="./assets/img/Partner_1.jpeg" alt="face">
+                        <img src="./assets/img/Partner_1.jpeg" alt="face" class="person-photo">
+                        <div class="hobby-wrapper hobby-tv">
+                            <img src="./assets/img/hobby-tv.png" alt="hobby-tv" class="hobby">
+                        </div>
                         <div class="person-description">
                             <div class="person-description__name"><p>Bradley Hunter</p></div>
                             <div class="person-description__quote"><p>Based in Chicago. I love playing tennis and loud music.</p></div>
                         </div>
                     </div>
                     <div class="person">
-                        <img src="./assets/img/Partner_2.jpeg" alt="face">
+                        <img src="./assets/img/Partner_2.jpeg" alt="face" class="person-photo">
+                        <div class="hobby-wrapper hobby-coffee">
+                            <img src="./assets/img/hobby-coffee.png" alt="hobby-coffee" class="hobby">
+                        </div>
                         <div class="person-description">
                             <div class="person-description__name heather"><p>Heather Walker</p></div>
                             <div class="person-description__quote"><p>I'm a happy person that loves cats and climbing on mountains.</p>
@@ -78,7 +84,10 @@
                         </div>
                     </div>
                     <div class="person">
-                        <img src="./assets/img/Partner_3.jpeg" alt="face">
+                        <img src="./assets/img/Partner_3.jpeg" alt="face" class="person-photo">
+                        <div class="hobby-wrapper hobby-chemical">
+                            <img src="./assets/img/hobby-chemical.png" alt="hobby-chemical" class="hobby">
+                        </div>
                         <div class="person-description">
                             <div class="person-description__name lucas"><p>Lucas Marsha</p></div>
                             <div class="person-description__quote lucas-quote"><p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
@@ -86,7 +95,10 @@
                         </div>
                     </div>
                     <div class="person">
-                        <img src="./assets/img/Partner_4.jpeg" alt="face">
+                        <img src="./assets/img/Partner_4.jpeg" alt="face" class="person-photo">
+                        <div class="hobby-wrapper hobby-message">
+                            <img src="./assets/img/hobby-message.png" alt="hobby-message" class="hobby">
+                        </div>
                         <div class="person-description">
                             <div class="person-description__name bradley"><p>Bradley Hunter</p></div>
                             <div class="person-description__quote bradley-quote"><p>Based in Chicago. I love playing tennis and loud music.</p>
@@ -104,25 +116,26 @@
                 </div>
                 <div class="ideas-list">
                     <div class="activity">
-                        <p>Sport and Activity</p>
+                        <div class="idea-wrapper"><p>Sport and Activity</p></div>
                     </div>
                     <div class="wellnes">
-                        <p>Wellnes and Health</p>
+                        <div class="idea-wrapper"><p>Wellnes and Health</p></div>
+                        
                     </div>
                     <div class="extrime">
-                        <p>Extreme Sports and Expeditions</p>
+                        <div class="idea-wrapper"><p>Extreme Sports and Expeditions</p></div>
                     </div>
                     <div class="games">
-                        <p>Games</p>
+                        <div class="idea-wrapper"><p>Games</p></div>
                     </div>
                     <div class="education">
-                        <p>Culture and Education</p>
+                        <div class="idea-wrapper"><p>Culture and Education</p></div>
                     </div>
                     <div class="relaxation">
-                        <p>Relaxation</p>
+                        <div class="idea-wrapper"><p>Relaxation</p></div>
                     </div>
                     <div class="travelling">
-                        <p>Travelling</p>
+                        <div class="idea-wrapper"><p>Travelling</p></div>
                     </div>
                 </div>
             </div>
@@ -140,27 +153,31 @@
             </div>
         </main>
         <footer>
-            <div class="footer-logo">
-                <h3 class="footer-logo__heading">Dreamshare</h3>
-            </div>
-            <nav class="footer-navigation">
-                <div class="company-list">
-                    <h3>Company</h3>
-                    <ul class="company-list">
-                        <li class="company-list__about">About</li>
-                        <li class="company-list__contacts">Contacts</li>
-                        <li class="company-list__press">Press</li>
-                        <li class="company-list__blog">Blog</li>
-                    </ul>
+            <hr class="red-line">
+            <div class="footer-wrapper">
+                <div class="footer-logo">
+                    <h3 class="footer-logo__heading">Dreamshare</h3>
                 </div>
-                <div class="partners">
-                    <h3 class="partner_heading">Partners</h3>
+                <nav class="footer-navigation">
+                    <div class="company-list">
+                        <h3>Company</h3>
+                        <ul class="company-list-nav">
+                            <li class="company-list__about">About</li>
+                            <li class="company-list__contacts">Contacts</li>
+                            <li class="company-list__press">Press</li>
+                            <li class="company-list__blog">Blog</li>
+                        </ul>
+                    </div>
+                    <div class="partners-nav">
+                        <h3 class="partner_heading">Partners</h3>
+                    </div>
+                </nav>
+                <div class="copyright">
+                    <p class="copyright__represent">Designed by</p>
+                    <a href="#" class="copyright__link"><img src="./assets/img/copyright-logo.png" alt="Arteo logo"></a>
                 </div>
-            </nav>
-            <div class="copyright">
-                <p class="copyright__represent">Designed by</p>
-                <a href="#" class="copyright__link"><img src="#" alt="Arteo logo"></a>
             </div>
+            
         </footer>
     </div>
 </body>

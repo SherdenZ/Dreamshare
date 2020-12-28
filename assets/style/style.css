@@ -33,7 +33,28 @@ header {
 .header-menu {
     float: right;
     position: relative;
-    top: 1em;
+    top: 1.2em;
+    left: 5.2em;
+}
+
+.header-menu button {
+    background: inherit;
+    font-size: 1.4em;
+    font-weight: 600;
+    height: 2.6em;
+    border-radius: 1.56em;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.header-menu__log-in {
+    border: none;
+    width: 5.4em;
+}
+
+.header-menu__sing-up {
+    border: 0.16em solid;
+    width: 6.4em;
 }
 
 h1 {
@@ -130,8 +151,12 @@ main{
 
 .step__wrapper {
     padding: 0 1.5em 0 2em;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.0) 100%);
     border-radius: 0 0 0.5em 0.5em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .step__number {
@@ -218,7 +243,8 @@ main{
 
 .partners-list {
     position: relative;
-    top: 0.2em;
+    top: 0.4em;
+    left: 0.2em;
     display: inline-flex;
     justify-content: space-between;
     width: 96em;
@@ -229,20 +255,54 @@ main{
     flex-grow: 1;
 }
 
-.person img {
+.person-photo {
     border-radius: 50%;
     margin: 0 3.9em;
+    height: 12em;
+}
+
+.hobby-wrapper {
+    position: relative;
+    bottom: 3.8em;
+    width: 3.2em;
+    height: 3.2em;
+    left: 12.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.4em solid #FFF;
+    border-radius: 50%;
+}
+
+.hobby {
+    height: 1.7em;
+}
+
+.hobby-tv {
+    background-color: #FF4E50;
+}
+
+.hobby-coffee {
+    background-color: #1CD7AD;
+}
+
+.hobby-chemical {
+    background-color: #FFA507;
+}
+
+.hobby-message {
+    background-color: #4E73DB;
 }
 
 .person-description {
     text-align: center;
     font-size: 1.4em;
+    margin-top: -2.55em;
 }
 
 .person-description__name {
-    position: relative;
-    top: 0.1em;
-    left: -1.46em;
+    margin-top: -2.7em;
+    margin-left: -3em;
     letter-spacing: -0.02em;
     color: #333333;
 }
@@ -284,23 +344,26 @@ main{
     position: relative;
     left: 4px;
     width: 20em;
-    margin: 2.1em auto 0;
+    margin: 2.2em auto 0;
 }
 
 .other-partners button{
     width: 13.7em;
     background: inherit;
     border-radius: 10em;
-    line-height: 2.498em;
+    line-height: 2.4em;
+    border: solid;
     border-color: #FF4E50;
     color: #FF4E50;
     font-weight: 600;
     font-size: 1.4em;
     letter-spacing: -0.01em;
+    padding-left: 0.4em;
+    padding-top: 0.15em;
 }
 
 .ideas{
-    padding-top: 19.38em;
+    padding-top: 19.3em;
 }
 
 .ideas-heading {
@@ -311,10 +374,193 @@ main{
     letter-spacing: 0.0078em;
 }
 
-.ideas-heading__heading {
-    
-}
 .ideas-list {
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 96em;
+    margin: 0 auto;
+    padding-top: 1.4em;
+    justify-content: space-around;
+    height: 99em;
 }
 
+.ideas-list > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31em;
+    width: 30em;
+    border-radius: 0.4em;
+}
+
+.idea-wrapper {
+    height: 100%;
+    width: 100%;
+    border-radius: 0.4em;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.idea-wrapper > p {
+    color: #fff;
+    font-size: 2.2em;
+    text-align: center;
+    width: 76%;
+    padding: 0 0 2px 4px;
+}
+
+.activity {
+    background: no-repeat url(../img/Ideas_1.jpeg);
+    background-position: -10.1em -1.7em;
+}
+
+.wellnes {
+    background: no-repeat url(../img/Ideas_2.jpeg);
+    background-position: -0.9em -1.4em;
+}
+
+.extrime {
+    background: no-repeat url(../img/Ideas_3.jpeg);
+    background-position: -30em -2.6em;
+}
+
+.extrime > p {
+    margin-top: 1em;
+}
+
+.games {
+    background: no-repeat url(../img/Ideas_4.jpeg);
+    background-position:-7.7em -2.7em;
+}
+
+.education {
+    background: no-repeat url(../img/Ideas_5-6.jpeg);
+    background-position: -0.1em -5em;
+    flex-basis: 62em;
+}
+
+.relaxation {
+    background: no-repeat url(../img/Ideas_7-8.jpeg);
+    background-position: -1.4em -6.9em;;
+    flex-basis: 62em;
+}
+
+.travelling {
+    background: no-repeat url(../img/Ideas_9.jpeg);
+    background-position: -23.5em -1.6em;;
+}
+
+.search-heading {
+    margin: 0 auto;
+    width: 48em;
+    padding-top: 4.6em;
+}
+
+.search-heading__heading {
+    font-size: 2.2em;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin-left: -4px;
+}
+
+.search-heading__description {
+    font: 1.8em Roboto, sans-serif;
+    text-align: center;
+    margin-top: 1.75em;
+    margin-left: -0.2em;
+    letter-spacing: 0.004em;
+    color: #333;
+}
+
+.search-partner-form {
+    margin: 0 auto;
+    width: 41.2em;
+    padding-top: 1.9em;
+}
+
+.search-partner-form  input{
+    height: 3.5em;
+    width: 23.2em;
+    border: solid 0.2em #CCCCCC;
+    border-radius: 0.3em;
+}
+
+.search-partner__search-button {
+    margin-left: 0.5em;
+    height: 2.9em;
+    width: 11.43em;
+    border-radius: 2em;
+    border: none;
+    background-color: #FF4E50;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+footer {
+    padding-top: 1.3em;
+}
+
+.red-line {
+    border: 0.2em solid #ff4e50;
+}
+
+.footer-wrapper {
+    height: 19em;
+    width: 94em;
+    margin: 0px auto;
+    display: flex;
+    padding-top: 1.6em;
+}
+
+.footer-logo {
+    margin-left: -0.2em;
+}
+
+.footer-logo__heading {
+    color: #ff4e50;
+    font-size: 1.54em;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.footer-navigation {
+    margin-left: 9.5em;
+    margin-top: 0.1em;
+    display: flex;
+    width: 25.1em;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.company-list-nav{
+    font: 1.4em Roboto, sans-serif;
+    list-style-type: none;
+    color: #666;
+    line-height: 1.43em;
+    margin: -0.26em 0 0 -2.4em;
+    letter-spacing: -0.08em;
+}
+
+.partners-nav {
+    margin-left: 14.1em;
+}
+
+.copyright {
+    margin-left: 29em;
+}
+
+.copyright__represent {
+    text-transform: uppercase;
+    color: #ccc;
+    margin-top: 1.6em;
+    margin-left: 3em;
+    margin-bottom: 0.7em;
+    letter-spacing: 0.067em;
+}
+
+.copyright__link img{
+    margin-left: -0.01em;
+}
