@@ -348,7 +348,7 @@ main{
     margin: 2.2em auto 0;
 }
 
-.other-partners button{
+.other-partners__button{
     width: 13.7em;
     background: inherit;
     border-radius: 10em;
@@ -483,10 +483,14 @@ main{
 }
 
 .search-partner-form  input{
-    height: 3.5em;
-    width: 23.2em;
+    height: 1.13em;
+    width: 15.2em;
     border: solid 0.2em #CCCCCC;
     border-radius: 0.3em;
+    color: #999;
+    padding: 0.7em;
+    padding-left: 0.9em;
+    font: 1.4em Roboto, sans-serif;
 }
 
 .search-partner__search-button {
@@ -564,4 +568,320 @@ footer {
 
 .copyright__link img{
     margin-left: -0.01em;
+}
+
+@media screen and (device-width: 320px) {
+
+    .wrapper {
+        width: 32em;
+        height: 390.5em;
+    }
+
+    header {
+        width: 40em;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: -23em;
+    }
+
+    .header-logo {
+        position: inherit;
+        top: 10.7em;
+        left: 6.3em;
+    }
+
+    .header-menu {
+        margin-top: -1.8em;
+        margin-left: -0.3em;
+    }
+
+    .promo {
+        background-position: -42em 1.3em;
+        background-size: 113.5em 54.8em;
+        margin-top: -2.1em;
+        height: 5em;
+    }
+
+    .presentation {
+        top: 24.2em;
+        left: 0em;
+        width: 32em;
+    }
+
+    .presentation-description__heading {
+        font-size: 3em
+    }
+
+    .presentation-description__description {
+        font: 1.8em Roboto, sans-serif;
+        margin-top: 0.5em;
+        width: 13em;
+        margin-left: 2.1em;
+    }
+
+    .presentation__button {
+        margin-top: -0.3em;
+        height: 2.82em;
+        width: 20em;
+        margin-right: 0em;
+    }
+
+    main {
+        top: -22em
+    }
+
+    .how-it-works {
+        width: 100%;
+        top: 3.06em;
+    }
+
+    .how-it-works__heading {
+        margin-bottom: 0.71em;
+    }
+
+    .dreamshare-description {
+        width: 30.1em;
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .step {
+        width: 29.9em;
+        height: 24em;
+        margin-bottom: 1em;
+    }
+
+    .step-first {
+        background-position: -6.4em -2.7em;
+        background-size: 41.1em;
+    }
+
+    .step-second {
+        background-position: -2.7em -1.8em;
+        background-size: 39.7em;
+    }
+
+    .step-third {
+        background-position: -5.6em -2.2em;
+        background-size: 41em;
+    }
+
+    .partners {
+        top: 31.8em;
+        width: 32em;
+    }
+
+    .partners__heading {
+        width: 14em;
+        margin-left: 0.3em;
+    }
+
+    .partners-list {
+        top: -1.4em;
+        flex-direction: column;
+        width: 32em;
+        left: 1em;
+    }
+    
+    .person {
+        margin: 0 auto 1.1em auto;
+    }
+
+    .second {
+        order: 2;
+    }
+
+    .second p {
+        margin-left: -0.3em;
+    }
+
+    .third {
+        order: 1;
+    }
+
+    .forth {
+        order: 2;
+    }
+
+    .forth p {
+        margin-left: -0.3em;
+    }
+
+    .person-description__name {
+        margin-top: -2.8em;
+        margin-left: -1.6em;
+    }
+    
+    .other-partners {
+        position: static;
+        width: 28.5em;
+        margin: -1.1em auto 0;
+    }
+
+    .other-partners__button {
+        border: 0.15em solid #ff4e50;
+        height: 2.85em;
+        width: 20em;
+    }
+
+    .ideas {
+        padding-top: 33.2em;
+    }
+
+    .ideas-heading {
+        text-align: center;
+        line-height: 1.45em;
+        width: 16em;
+    }
+
+    .ideas-list {
+        flex-direction: column;
+        width: 30em;
+        height: 91em;
+        padding: 0;
+        margin-top: -1.2em;
+    }
+
+    .ideas-list > div {
+        height: 12em;
+    }
+
+    .activity {
+        background: no-repeat url(../img/Ideas_1.jpeg);
+        background-position: -0.4em -3.5em;
+        background-size: 32.4em 21.8em;
+    }
+    
+    .wellnes {
+        background: no-repeat url(../img/Ideas_2.jpeg);
+        background-position: -0.33em -12.7em;
+        background-size: 31.8em 31.8em;
+    }
+    
+    .extrime {
+        background: no-repeat url(../img/Ideas_3.jpeg);
+        background-position: -29.5em -8.45em;
+        background-size: 62.4em;
+    }
+    
+    .extrime p {
+        margin-top: 1em;
+        margin-left: -0.2em;
+        letter-spacing: -0.023em;
+        width: 9em;
+    }
+    
+    .games {
+        background: no-repeat url(../img/Ideas_4.jpeg);
+        background-position: -7.6em -14.6em;
+        background-size: 57.2em;
+    }
+    
+    .education {
+        background: no-repeat url(../img/Ideas_5-6.jpeg);
+        background-position: -0.1em -5em;
+        background-size: 31em;
+        flex-basis: auto;
+    }
+
+    .education p {
+        width: 13em;
+        margin-top: 1.23em;
+        margin-left: -0.1em;
+        letter-spacing: -0.025em;
+    }
+    
+    .relaxation {
+        background: no-repeat url(../img/Ideas_7-8.jpeg);
+        background-position: -1.4em -2.9em;
+        background-size: 34.9em;
+        flex-basis: auto;
+    }
+    
+    .travelling {
+        background: no-repeat url(../img/Ideas_9.jpeg);
+        background-position: -23.4em -6.6em;
+        background-size: 54.2em;
+    }
+
+    .idea-wrapper > p {
+        padding: 0 0 5px 4px;
+    }
+
+    .search-heading {
+        width: 32em;
+        padding: 0;
+    }
+    
+    .search-heading__description {
+        margin-top: -1em;
+    }
+
+    .search-partner-form {
+        width: 32em;
+        margin-top: -0.4em;
+        padding: 0;
+    }
+
+    .search-partner-form input {
+        width: 18.2em;
+        margin-left: 1.3em;
+    }
+
+    .search-partner__search-button {
+        margin-top: 0.65em;
+        margin-left: 1.3em;
+        width: 20em;
+    }
+
+    footer {
+        margin-top: -18.5em;
+        padding: 0;
+    }
+
+    .red-line {
+        margin-bottom: 0;
+    }
+
+    .footer-wrapper {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-left: 9.5em;
+    }
+
+    .footer-navigation {
+        margin-left: 10.4em;
+        margin-top: -1.5em;
+        letter-spacing: -0.04em;
+        display: block;
+    }
+
+    .company-list-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 11.65em;
+        margin-top: -0.8em;
+        margin-left: -6.2em;
+        line-height: 1.2em;
+    }
+
+    .partners-nav {
+        margin-left: 0.3em;
+        margin-top: -0.2em;
+    }
+
+    .copyright {
+        margin-left: 8.9em;
+        margin-top: -1.8em;
+    }
+
+    .copyright__link img{
+        margin-left: 1.5em;
+    }
+
 }
